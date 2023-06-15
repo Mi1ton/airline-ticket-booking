@@ -1,5 +1,6 @@
 **Installation and run:**
 git clone https://github.com/Mi1ton/airline-ticket-booking.git
+
 cd airline-ticket-booking
 npm i
 npm run dev
