@@ -64,7 +64,6 @@ function App() {
       ) : null}
       <Snackbar
         open={openSnackbar}
-        autoHideDuration={3000}
         message={"There was an error getting flights schedule"}
         onClose={handleClose}
         action={snackbarRetryButton}
