@@ -1,9 +1,15 @@
+**Installation and run:**
+git clone https://github.com/Mi1ton/airline-ticket-booking.git
+cd airline-ticket-booking
+npm i
+npm run dev
+
 # airline-ticket-booking
-Assignment:
+**Assignment:**
 
 Your task is to create a web application for booking airline tickets using React. The application should simulate the functionality of ticket booking according to API data. I am sending the test dataset as an attachment.
 
-Application requirements:
+**Application requirements:**
 
 Project Structure: Create a proper project structure in React and organise components, services and styles according to best practices.
 
@@ -15,6 +21,6 @@ Flight booking: After the user selects a flight, allow the user to select seats 
 
 Data validation: Check if the entered data is valid (e.g. date validation etc...). Show the user the corresponding error messages in case of invalid data.
 
-Bonus:
+**Bonus:**
 
 Error handling: Simulate various error conditions such as data loading errors, invalid server responses, etc. Display appropriate error messages to the user.
