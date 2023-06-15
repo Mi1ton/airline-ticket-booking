@@ -19,10 +19,10 @@ interface props {
 function BookingPage({ flight, setBookingData }: props) {
   const availableSeats = filterAvailableSeats(flight.seats);
 
-  const [firstName, setFirstName] = useState("Dmytro");
-  const [lastName, setLastName] = useState("Petrovych");
-  const [phoneNumber, setPhoneNumber] = useState("1234");
-  const [email, setEmail] = useState("s@s");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [email, setEmail] = useState("");
   const [dateOfBirth, setDateOfBirth] = useState(defaultDateValue(18));
   const [seatID, setSeatID] = useState(availableSeats[0].id);
 

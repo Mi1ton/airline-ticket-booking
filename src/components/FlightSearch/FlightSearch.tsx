@@ -13,10 +13,13 @@ interface props {
 }
 
 function FlightSearch({ setSearchParams }: props) {
-  const [originAirport, setOriginAirport] = useState("Prague");
-  const [destinationAirport, setDestinationAirport] = useState("London");
-  const [departureDate, setDepartureDate] = useState<string>("2023-06-10");
-  const [arrivalDate, setArrivalDate] = useState<string>("2023-06-10");
+  const [originAirport, setOriginAirport] = useState("");
+  const [destinationAirport, setDestinationAirport] = useState("");
+  const [departureDate, setDepartureDate] = useState<string>(
+    defaultDateValue()
+  );
+  const [arrivalDate, setArrivalDate] = useState<string>(defaultDateValue());
+  console.log(defaultDateValue());
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
